@@ -391,7 +391,7 @@ margin:20px auto;
 border:1px solid #ccc;
 }
 
-#menuFooter{display:flex;gap:;justify-content:space-around}
+#menuFooter{display:flex;justify-content:space-around}
 
 
 footer li{
