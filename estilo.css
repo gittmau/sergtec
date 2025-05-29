@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{scroll-behavior:smooth;scroll-padding-top:20px}
+
+main{
+position:relative;
+background-color:#eee;
+width:98%;
+margin:auto;
+box-shadow:0px 0px 5px #999;
+}
+
+*{
+margin:0;padding:0;box-sizing:border-box;
+
+}
+
+li{
+list-style:none;
+}
+
+li,p,span,small,strong,a{
+font-family:'Kanit',sans-serif;
+font-weight:;
+}
+
+
+a{
+ text-decoration:none; 
+ font-family:;
+}
+
+h1,h2,h3{
+font-family:'Kanit',sans-serif;
+font-weight:800;
+}
+
+img{
+ width:100%;
+ }
+ 
+ #imgLogo{
+  width:80px;
+	margin:0px 15px;
+ }
+
+#topo{
+  width:100%;  
+  background:linear-gradient(to right,#fff,#ddd);	
+	display:flex;
+	align-items:center;
+	justify-content:space-between;	
+}
+
+
+.conteudoTopo{
+ width:;
+ margin:0px ;
+ }
+
+
+#telefoneTopo{
+  display:block;
+  background:#0e4473;
+	padding:8px;
+	text-align:center;
+	border-radius:5px;
+	font-size:0.8em;
+	color:#fff;
+	margin:0px 25px
+}
+
+
+.areaLogo img{
+  width:80px;
+}
+
+
+#menu{
+display:none;	
+}
+
+#capaChamada{  
+ background-image:url('capa2.jpg');
+ background-position:right;
+ background-size:cover; 
+ text-align:center; 
+}
+
+#filtroCapa{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+	justify-content:center;
+  background-color:rgba(0,0,0,0.6);
+	padding:150px 0px;
+}
+
+.conteudoCapa{
+  width:98%;
+	margin:auto;
+	background:;
+	padding:20px 10px;	
+}
+
+#tituloCapa{
+ font-family:'Kanat',sans-serif;
+ font-weight:800;
+ font-size:1.2em;
+ text-transform:uppercase;
+ color:#fff;
+}
+
+small{
+ font-weight:200;
+ display:none;
+ color:#fff;
+}
+
+#btnZap{
+  width:30vw;
+  display:;
+  background:Brown;
+	color:#fff;
+	padding:10px;
+	border-radius:5px;
+	margin:auto;
+	text-align:center;
+}
+
+body{
+background:#ddd;
+}
+
+#container{background:#fff;}
+
+
+#sobre,#servicos{
+width:98%;
+margin:50px auto;
+}
+
+#sobre{
+ margin-top:0;
+ padding-top:80px;
+}
+
+
+.conteudoSobre p{
+ font-size:0.9em;
+ padding:10px 5px;
+ color:#555;
+ line-height:1.5;
+ 
+}
+
+.conteudoSobre h2{
+ color:#0e4473;
+ font-size:1.5em; 
+ padding:5px 4px;
+ }
+
+.conteudoSobre,.conteudoServicos{
+ width:98%;
+ margin:auto;
+ padding:0px;
+}
+
+
+.conteudoServicos h2{
+text-transform:uppercase;
+color:#fff;
+
+}
+
+.conteudoSobre h2{
+text-transform:uppercase;
+}
+
+.conteudoServicos p,h2{
+ padding:5px 15px;
+}
+
+.conteudoServicos p{
+  font-weight:200;
+	color:#fff;
+}
+
+
+
+#nomeSobre{
+color:brown;
+}
+
+.conteudoServicos{
+ margin:100px auto;
+ background:linear-gradient(to left,brown,red);
+ border-radius:0px 0px 6px 6px;
+}
+
+.conteudoServicos:nth-child(2){
+ background:linear-gradient(to right,#0e4473,#3b7b96);
+}
+
+#btnZap2{
+width:50vw;
+text-align:center;
+padding:10px;
+background:#0e4473;
+color: #fff;
+border-radius:2px;
+display:block;
+margin:auto;
+margin-top:50px;
+display:none
+
+}
+
+#tituloServicos{
+ text-align:center;
+ color:#0e4473;
+ margin-top:100px
+}
+
+#tituloServicos h1{
+ font-size:1.5em;
+ text-transform:uppercase;
+}
+
+
+#marcas{
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+background:#;
+width:100%;
+padding:15px;
+}
+
+.imgMarcas{
+ width:30%;
+ margin:5px auto; 
+}
+
+
+
+.btn-solicitar{
+width:150px;
+text-align:center;
+padding:10px;
+background:#fff;
+color: #333;
+border-radius:2px;
+display:block;
+margin:20px 0px;
+font-weight:600;
+font-size:0.8em; 
+}
+
+#especificacoes{
+ width:100%; 
+ margin:0 auto;
+ text-align:center;
+ line-height:50px; 
+ background:;
+ padding:20px;
+}
+
+#especificacoes a{
+ display:block;
+ color:#555;
+ font-size:1em
+ 
+}
+
+.boxEspec{
+ width:100%;
+ margin:80px auto;
+ background:#eee;
+ padding:20px;
+}
+
+.boxEspec strong{
+ color:#555;
+ text-shadow:2px 2px 2px #999;
+}
+
+
+.boxEspec a{
+  display:block;
+	background:#0e4473;
+	color:#fff!important;
+ }
+
+
+#tituloEspec h1{
+font-size:1.5em;
+color:#0e4473;
+text-transform:uppercase;
+}
+
+#tituloEspec{
+ text-align:center;
+ margin-top:100px;
+}
+
+#tituloEspec p{
+color:brown;
+font-size:1em;
+}
+
+#video{
+ margin:0px auto;
+ padding:10px;
+ 
+}
+ 
+ .conteudoVideo p{
+  color:#555;
+	padding:10px;
+	font-weight:400;
+}
+ 
+ .conteudoVideo a{
+  display:block;
+	margin:10px;
+	background:#0e4473;
+	width:100px;
+	text-align:center;
+	color:#fff;
+	padding:5px;
+	border-radius:2px;
+	
+ }
+ 
+ .conteudoVideo h2{
+  text-transform:uppercase;
+	color:brown;	
+	padding:5px 7px;
+ }
+
+#zapFixo{
+position:fixed;
+right:10px;
+bottom:10px;
+width:45px;
+height:45px;
+}
+
+footer{
+ width:100%;
+ background:#f4f4f4;
+ margin-top:0px;
+ border-top:0px solid #ccc;
+ padding:45px 10px;
+ text-align:center;
+}
+
+.conteudoFooter{
+letter-spacing:0px;
+line-height:30px;
+font-size:0.9em;
+padding:20px 10px;
+margin:20px auto;
+border:1px solid #ccc;
+}
+
+#menuFooter{display:flex;gap:;justify-content:space-around}
+
+
+footer li{
+ list-style:none; 
+}
+
+.conteudoFooter h3{
+ font-size:1.5em;
+ text-transform:uppercase;
+}
+
+.conteudoFooter h3,li,a,p{
+color:#555;
+}
+
+.conteudoFooter img{
+ width:9%;padding:10px 0px;
+}
+
+#creditos p{
+text-align:center;
+font-size:0.8em;
+background:#0e4473;
+padding:10px 0px;
+}
+
+
+
+
+@media(min-width:375px){
+
+ .areaLogo{margin:0px 15px;} 
+ 
+ #tituloCapa{font-size:1.5em}
+}
+
+/*----Tablet----------------------------------------------------------*/	
+
+@media(min-width:768px){
+ 
+ main{width:95%} 
+ 
+ #tituloCapa{font-size:2em;}
+ 
+ #telefoneTopo{display:none}
+ 
+ #menu{width:60%;display:flex;align-items:center;background:#;margin:0 10px;justify-content:center}	
+	
+ #menu li{color:#0e4473;margin:0px;font-weight:300;border-bottom:none;padding:10px;font-size:0.9em;} 
+ 
+ #menu li:hover{background:#0e4473;color:#fff;transition:0.3s;border-radius:5px}
+	
+ #sobre,#servicos{display:flex;align-items:center}
+ 
+ .conteudoSobre,.conteudoServicos{width:47%}
+ 
+ .conteudoSobre h2{margin-top:0}
+ 
+ .conteudoSobre p{font-size:0.8em;}
+ 
+ #btnZap2{width:20vw;padding:2px;margin:0;margin-top:10px;}
+ 
+ #especificacoes{display:flex;align-items:center;justify-content:center;margin:100px auto} 	
+	
+ .boxEspec{width:33%;margin:auto;background:transparent;border:1px solid #ddd;cursor:pointer;}
+ 
+  #video{display:flex;align-items:center;justify-content:center;width:93%;}
+ 
+ .conteudoVideo{width:50%;padding:15px;}
+ 
+ .conteudoVideo:nth-child(2){margin-top:100px}
+ 
+ #saibaMais{width:150px;margin:0px 5px;padding:10px}
+ 
+ .imgMarcas{width:16%}
+	
+ .imgMarcas img{width:80%;}
+ 
+ .conteudoFooter img{width:5%;padding:10px 0px;}
+ 
+ #menuFooter{display:flex;gap:10px;justify-content:center}
+ 
+}
+
+/*------------------------------------------------------------------*/
+
+@media(min-width:900px){
+
+  body{position:relative}	
+	
+  main,#container{background:#fff;position:relative;}   
+
+  body{background:#ddd;}	
+	
+	#menu{width:55%}
+	
+	small{font-size:1em} 	
+	
+	#filtroCapa{flex-direction:row;justify-content:space-between;align-items:center}
+	
+	#btnZap{width:25vw;text-align:center;padding:15px;border-radius:5px;background:transparent;border:1px solid #fff}
+	
+	#btnZap:hover{background:brown;border:none;transition:0.5s}
+	
+	#filtroCapa,#capaChamada{height:600px;padding:0;}
+	
+	.conteudoCapa{width:70%;text-align:left;background:;}
+	
+	.conteudoCapa:nth-child(2){width:20%;}
+	
+	#tituloCapa{font-weight:600;font-size:3em;}
+	
+	small{font-weight:200;display:block;}
+
+  #container{max-width:850px;margin:auto;}		
+	
+	#sobre{width:90%;margin:100px auto}
+	
+	.conteudoSobre{text-align:left;width:50%;padding:10px}
+	
+	.conteudoSobre h2{padding:15px 3px}
+	
+	.conteudoSobre img{width:100%}	
+	
+	#btnZap2{display:block;width:150px;background:brown;margin:15px 0px;padding:10px}
+	
+	#btnZap2:hover{background:#0e4473;transition:0.5s}
+	
+	#servicos{width:90%;margin:100px auto}
+	
+	.conteudoServicos{width:50%;margin:0px 10px;border-radius:0px 0px 5px 5px}
+	
+	#marcas{width:94%;margin:auto;flex-direction:row;flex-wrap:no-wrap;background:transparent;}
+	
+	.imgMarcas{width:16%}
+	
+	.imgMarcas img{width:90%;}
+	
+	.imgMarcas:hover{background:#ddd}
+	
+	.btn-solicitar{width:100px;font-weight:400}
+	
+	.btn-solicitar:hover{background:transparent;box-shadow:0px 0px 5px #fff;transition:0.5s;color:#fff}	
+
+  .boxEspec{width:30%}	
+	
+  .boxEspec:hover{background:#ddd;border:1px solid #ccc;color:#;transition:0.5s } 
+ 
+  .boxEspec a:hover{background:brown;transition:0.5s}
+ 
+  #video{display:flex;align-items:center;justify-content:center;width:93%;background:;}
+ 
+  .conteudoVideo:nth-child(2){margin-top:70px}
+ 
+  .conteudoVideo{width:50%;padding:0px 15px}
+ 
+  .conteudoVideo h2{padding: 0px 15px;text-align:left}
+ 
+  .conteudoVideo p{margin:0px 5px;font-size:1em;}
+ 
+  #saibaMais{width:150px;margin:0px 15px;padding:10px }
+ 
+  #saibaMais:hover{background:brown;}
+ 
+  #footer{background:linear-gradient(to top,#eee,#ddd,#ccc);margin-top:100px;display:flex;flex-wrap:wrap;align-items:center} 
+ 
+ .conteudoFooter{width:50%;text-align:center;padding:20px;margin:15px auto;background:;border:none}
+ 
+ .conteudoFooter h3{text-transform:uppercase;font-size:1.2em}
+ 
+ .conteudoFooter li{list-style:none;text-transform:uppercase;padding:5px 0px;font-size:0.9em}
+ 
+ .conteudoFooter li:hover{color:#0e4473;font-weight:600}
+ 
+ .conteudoFooter a:hover{color:#0e4473;font-weight:600} 
+
+ .conteudoFooter img{padding:5px 0px}	
+ 
+ .conteudoFooter li,p,a{letter-spacing:1px}
+ 
+ #creditos p{font-size:0.9em;color:#fff;}
+	
+	
+	
+}	 
+
+
+@media(min-width:1024px){
+
+ main,#topo{max-width:1366px;margin:auto;}  
+
+ #menu{width:50%} 
+ 
+ #menu li{padding:12px;line-height:10px}
+ 
+ #tituloCapa{font-weight:600;font-size:3.5em;}
+ 
+ #btnZap{border-radius:2px}
+ 
+ .conteudoSobre h2{font-size:2em;} 
+ 
+ .conteudoSobre p{font-size:0.9em;text-align:left;font-weight:400;} 
+ 
+ #tituloServicos h1{font-size:2em;}
+ 
+ #container{max-width:950px;}
+ 
+ #tituloEspec h1{font-size:2em;}
+ 
+ #zapFixo{width:50px;right:40px;bottom:20px}
+ 
+ .conteudoFooter{width:40%}
+}
+
+
+@media(min-width:1280px){
+
+ #menu{width:55%;} 
+ 
+ #menu li{font-size:1em;margin:0 15px}
+}
